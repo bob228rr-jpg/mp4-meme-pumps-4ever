@@ -316,6 +316,19 @@ h2 {
   font-weight: 700;
 }
 
+.x-button,
+.x-profile {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #111;
+  background: linear-gradient(#333, #050505);
+  text-shadow: 1px 1px #000;
+}
+
+.x-button {
+  padding: 2px 10px 3px;
+}
+
 a {
   color: var(--link);
 }
@@ -440,6 +453,14 @@ a {
   color: #fff;
   border-color: #c67b00;
   background: linear-gradient(#ffbf42, #f08b00);
+  font-weight: 700;
+}
+
+.x-profile {
+  display: block;
+  margin: 0 9px 9px 63px;
+  padding: 6px 10px;
+  text-align: center;
   font-weight: 700;
 }
 
